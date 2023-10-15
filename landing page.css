@@ -1,0 +1,435 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* fullpage container  */
+.fullpagecontainer{
+    width: 100vw;
+    height: 100vh;
+}
+
+/* inner container for first land  */
+.first-container{
+    width: 100vw;
+    height: 650px;
+    background-color: rgb(183, 0, 255);
+}
+
+/* header css */
+.header-container{
+    width: 100vw;
+    height: 100px;
+    position: relative;
+    z-index: 120;
+    bottom: 620px; 
+    display: flex;
+    justify-content: center;
+}
+.header{
+    width: 1100px;
+    height: 85px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 46px 0 rgb(0, 0, 0,0.10);
+    /* z-index: 130px; */
+}
+.headlogo{
+    display: inline;
+    padding-left: 20px;
+}
+.head-inner{
+    display: inline;
+    padding-left: 60px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:small;
+    color: rgb(117, 116, 116);
+    letter-spacing: 1px;
+}
+.head{
+    display: inline;
+    margin-left:40px;
+}
+
+/* header/navbar total code  */
+
+
+
+/* laptop img css for 1st screen  */
+.lap-img{
+    width: 100vw;
+    height: 650px;
+    opacity: 0.3;
+}
+
+
+/* text css for 1st screen */
+.textone{
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    bottom: 550px;
+    color: white;
+}
+.second-text{
+    display: flex;
+    align-items: center;
+    font-size: large;
+}
+
+/* discover more button css */
+
+.button-discover{
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner-discover-b{
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(255, 73, 164);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 530px;
+}
+.inner-discover-b:hover{
+    background-color: blueviolet;
+}
+
+/* three boxes on 1st screen css  */
+.three-box{
+    display: flex;
+    justify-content:center;
+    position: relative;
+    bottom: 530px;
+}
+.firstscreen-3boxes{
+    width: 350px;
+    height: 260px;
+    background-color:white;
+    display: inline;
+    border-radius: 20px;
+    box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.10);
+    /* display: flex; */
+    justify-content: center;
+}
+.firstscreen-3boxes h5{
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    color: rgb(44, 43, 43);
+    justify-content: center;
+    letter-spacing: 0.7px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+.firstscreen-3boxes p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+    line-height: 25px;
+    color: rgb(0, 0, 0,0.5);
+    position: relative;
+    padding-top: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.icon{
+    display:flex;
+    justify-content: center;
+}
+.icon-3box{
+    width: 90px;
+    height: 90px;
+    background-color: rgb(148, 37, 252);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    margin-top: 25px;
+}
+.icon-3box:hover{
+    background-color: rgb(255, 73, 164);
+}
+#box2{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+/* three boxes on 1st screen css  complete */
+
+
+
+/* second container css  */
+.second-container{
+    width: 100vw;
+}
+
+/* left css */
+.left{
+    width: 100wv;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    /* margin-top: 100px; */
+    position: relative;
+    bottom: -200px;
+}
+.left-text{
+    width: 50vw;
+    padding-top: 50px;
+    letter-spacing: 1px;
+    padding-right: 180px;
+}
+.left-text h2{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size:x-large;
+    color: rgb(36, 36, 36);
+}
+.left-text p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0,0.5);
+    margin-top: 30px;
+    word-spacing: 0.7px;
+    line-height:27px;
+}
+.left-image{
+    width: 50vw;
+    margin-left: 200px;
+}
+
+/* right css */
+.right{
+    width: 100vw;
+    height: 600px;
+    background-color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    top: 100px;
+}
+.right-text{
+    width: 50vw;
+    margin-left: 120px;
+    letter-spacing: 1px;
+}
+.right-text h2{
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 500;
+   font-size: x-large;
+   color: rgb(36, 36, 36);
+}
+.right-text p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0,0.5);
+    margin-top: 30px;
+    word-spacing: 0.7px;
+    line-height:27px;
+}
+.right-image{
+    width: 50vw;
+    margin-left: 200px;
+}
+
+/* second container css end  */
+
+
+
+/* third container css  */
+.third-container{
+    width: 100vw;
+    height: 700px;
+    background-color: rgb(183, 0, 255);
+}
+.lap2-img{
+    position: relative;
+    top: 100px;
+    width: 100vw;
+    height: 600px;
+    opacity: 0.3;
+}
+.heading-c3{
+  /* width: 100vw;
+  height: 50px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  color: white;
+  position: relative;
+  bottom: 400px;
+}
+.text-c3{
+  width: 100vw;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  position: relative;
+  bottom: 380px;
+}
+.boxes-c3{
+  width: 100vw;
+  height: 200px;
+  position: relative;
+  bottom: 340px;
+  display: flex;
+  justify-content: center;
+}
+.box-c3{
+    width: 160px;
+    height: 190px;
+    background-color:white;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 20px;
+    box-shadow: 10px 10px rgb(255, 255, 255,0.3);
+}
+.rocketimg{
+    position: relative;
+    top: 25px;
+    display: flex;
+    justify-content: center;
+}
+.heading-c3-boxes{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 42px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: rgb(0, 0, 0,0.8);
+    letter-spacing: 0.25px;
+}
+.text-c3-boxes{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 52px;
+    letter-spacing: 0.5px;
+    color: rgb(0, 0, 0,0.5);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* third container css end  */
+
+
+
+/* forth container css  */
+.forth-container{
+    width: 100vw;
+    height: 630px;
+}
+.heading-c4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  color: rgb(0, 0, 0,0.8);
+  position: relative;
+  top: 110px;
+}
+.text-c4{
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0,0.5);
+    letter-spacing: 0.7px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    top: 130px;
+}
+.boxes-c4{
+    width: 100vw;
+    height: 200px;
+    position: relative;
+    top: 160px;
+    display: flex;
+    justify-content: center;
+}
+.box-c4{
+    width: 350px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 0 2px 48px 0 rgb(0, 0, 0,0.10);
+    margin: 16px;
+}
+.msg-icon{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 35px;
+}
+.text-c4-inner{
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 0,0.5);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.4px;
+    position: relative;
+    top: 60px;
+
+}
+.img60 img{
+    border-radius: 100px;
+}
+.img60{
+    position: relative;
+    display: flex;
+    top: 95px;
+    left: 30px;
+}
+.img60 p{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: large;
+    color:rgb(0, 0, 0,0.8);
+}
+
+/* forth container css end  */
+
+
+
+.ownerbar{
+    width: 100vw;
+    height: 50px;
+    background-color: rgb(183, 0, 255);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Times New Roman', Times, serif;
+}
+.ownerbar:hover{
+    background-color: rgb(213, 147, 219);
+}
+
+
+
+
+
